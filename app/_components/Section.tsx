@@ -22,7 +22,8 @@ export default function Section() {
         <div className="text-5xl mb-4">🔍</div>
         <h3 className="text-xl font-bold text-gray-900 mb-2">Powerful Search</h3>
         <p className="text-gray-600 leading-relaxed">
-          Advanced filtering by job title, category, and more. Find exactly what you're looking for in seconds.
+          Advanced
+           filtering by job title, category, and more. Find exactly what you're looking for in seconds.
         </p>
       </div>
 
