@@ -1,12 +1,19 @@
+import Banner from "./_components/Banner"
+import Footer from "./_components/Footer"
+import Header from "./_components/Header"
+import Hero from "./_components/Hero"
+import Section from "./_components/Section"
 
-
-const Home=async () => {  
-
+function page() {
   return (
-   <div>
-
-   </div> 
-  );
+    <div className="bg-gray-50">
+      <Header/>
+      <Hero/>
+      <Section/>
+      <Banner/>
+      <Footer/>
+    </div>
+  )
 }
 
-export default Home
+export default page
