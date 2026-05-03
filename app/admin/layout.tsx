@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function TelegramLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="h-screen flex bg-gray-400/hover:bg-[#1A1A1A]">
+    <div className="min-h-screen flex bg-gray-400/hover:bg-[#1A1A1A]">
       <div className="w-64 bg-black border-r border-gray-200 p-6">
         <div className="mb-6 flex items-center">
             <Image src="/logo.svg" width={150} height={150} alt={""}></Image>
@@ -23,7 +23,7 @@ export default function TelegramLayout({ children }: { children: ReactNode }) {
           </Link>
 
           <Link
-            href="/telegram/group"
+            href="/admin/create"
             className="flex items-center px-5 py-4 text-md font-bold text-white rounded-md hover:bg-[#1A1A1A] transition-colors"
           >
            ➕ Create Job

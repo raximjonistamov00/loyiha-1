@@ -13,12 +13,12 @@ function page() {
   return (
     <div>
       <div className="p-8 bg-slate-50 min-h-screen">
-      <div className="mb-6">
+      <div className="mb-6 ">
         <h1 className="text-3xl font-bold">Jobs Management</h1>
         <p className="text-muted-foreground">Manage all your job postings</p>
       </div>
 
-      <Button className="bg-[#1e3a8a] hover:bg-[#1e40af] mb-10">
+      <Button className="bg-[#1e3a8a] rounded-sm px-4 py-3 hover:bg-[#1e40af] mb-10">
         Create New Job
       </Button>
 
@@ -50,7 +50,7 @@ function page() {
                     </Badge>
                   </TableCell>
                   <TableCell>
-                    <Badge variant="outline" className="font-normal">
+                    <Badge variant="outline" className=" font-normal">
                       salom
                     </Badge>
                   </TableCell>
