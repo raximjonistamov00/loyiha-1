@@ -10,7 +10,9 @@ export default function TelegramLayout({ children }: { children: ReactNode }) {
     <div className="min-h-screen flex bg-gray-400/hover:bg-[#1A1A1A]">
       <div className="w-64 bg-black border-r border-gray-200 p-6">
         <div className="mb-6 flex items-center">
+            <Link href={"/"}>
             <Image src="/logo.svg" width={150} height={150} alt={""}></Image>
+            </Link>
         </div>
         <h3 className="text-gray-300 pl-3 text-[12px] font-bold pt-2 pb-4">ADMIN MENU</h3>
 

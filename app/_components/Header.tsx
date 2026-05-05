@@ -9,7 +9,9 @@ const Header=()=>{
             <Image src="/logo.svg" alt="" width={150} height={150}/>
             <ul className="flex items-center justify-center gap-3 cursor-pointer">
                 <li>Home</li>
+                <Link href={"/jobs"}>
                 <li>Jobs</li>
+                </Link>
                 <Link href={"/admin"}>
                 <Button>Post a job</Button>
                 </Link>
