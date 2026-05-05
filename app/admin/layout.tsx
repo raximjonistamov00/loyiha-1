@@ -30,7 +30,7 @@ export default function TelegramLayout({ children }: { children: ReactNode }) {
           </Link>
 
           <Link
-            href="/telegram/personal"
+            href="/admin/applies"
             className="flex items-center px-5 py-4 text-md font-bold text-white rounded-md hover:bg-[#1A1A1A] transition-colors"
           >
             📧 Applications

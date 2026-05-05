@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header=()=>{
     return (
@@ -9,7 +10,9 @@ const Header=()=>{
             <ul className="flex items-center justify-center gap-3 cursor-pointer">
                 <li>Home</li>
                 <li>Jobs</li>
+                <Link href={"/admin"}>
                 <Button>Post a job</Button>
+                </Link>
             </ul>
 
         </header>
